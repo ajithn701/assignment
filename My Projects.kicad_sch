@@ -319,23 +319,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC7483"
-				(at 0 0 0)
+			(property "Reference" "IC1"
+				(at 27.94 6.4202 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "7483"
+				(at 0.254 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-16_W10.16mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6095,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W10.16mm"
 			(at 199.39 72.39 0)
 			(effects
 				(font
@@ -7340,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W10.16mm"
 			(at 102.87 120.65 0)
 			(effects
 				(font
